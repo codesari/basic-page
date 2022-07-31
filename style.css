@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+body{
+    font-family: 'Audiowide', cursive;
+    margin: 0px;;
+    /* bu ayarla oynanabilir,sayfaya hoş bir görüntü katıyor,sağ sol alt üst den boşluk oluşturuyor */
+}
+
+.header{
+
+    background-color:black;
+    border-bottom: 5px solid red;
+    /* buradaki solid,alt çizginin gözükmesini sağlıyor */
+    color:white;
+    padding: 30px;;
+    /* iç tarafın boşluğu padding dış tarafın boşluğu margin */
+}
+
+.title span{
+
+    color: red;
+}
+
+.nav{
+    display: inline;
+    float: right;
+    /* display: block; bu ifade tam bir satırı kapsıyor demek */
+    /* display: inline; da aynı satırda gösteriyor */
+}
+
+.title{
+    display: inline;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 4px;
+}
+
+.main{
+
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("https://sergiotaco.github.io/html-css-workshop/images/banner.jpg");
+    /* bu ayar hoş bir görüntü karartma katıyor */
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    background-repeat: none;
+    /* vmax ekrana göre değişen bir değer */
+}
+
+
+
+
+
+
+
